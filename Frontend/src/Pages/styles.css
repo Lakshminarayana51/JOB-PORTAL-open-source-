@@ -1,0 +1,157 @@
+.add-task-container {
+    position: fixed;
+    top: 50%; /* Position from the top */
+    left: 50%; /* Position from the left */
+    z-index: 100;
+    background-color: rgb(206, 204, 204);
+    width: min-content; /* Adjust as needed */
+    height: min-content; /* Adjust as needed */
+    border-radius: 20px;
+    display: flex; /* Ensure it's a flex container */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Align children to the top */
+    align-items: center; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the element */
+    text-align: center; /* Center text inside */
+    border: 2px solid black;
+    justify-content: space-between; /* Space between items */
+    align-items: flex-start;
+
+    
+}
+.link{
+    text-decoration: none;
+    color: red;
+}
+.delete:hover{
+    color: rgb(250, 5, 5);
+}
+
+.add-task-container > h1 {
+    margin-bottom: 10px; 
+    text-align: center;
+    font-size: 29px;
+    color: rgb(2, 2, 44);/* Add space below the heading */
+    /* Remove unnecessary styles */
+}
+
+.overlay {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 100;
+    background-image: url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8am9ifGVufDB8fDB8fHww'); /* Set your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.add-task-contents {
+    background-color: rgb(5, 5, 5);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.add-task-form {
+    display: flex;
+    flex-direction: column;
+   align-content: center;
+    padding: 20px;
+    padding-top: 25px;
+    gap: 10px;
+}
+
+.add-task-form > input,
+.add-task-form > textarea,
+.add-task-form > button {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+}
+
+.add-task-form > button {
+    float: left;
+    margin-right: 10px;
+    background-color: rgb(15, 58, 102);
+    color: rgb(252, 250, 250);
+    cursor: pointer;
+}
+
+.add-task-form > button:active {
+    color: rgb(31, 77, 1);
+    transform: scale(0.8); /* Corrected duration */
+}
+
+.add-task-form > button:hover {
+    background-color: rgb(2, 104, 56);
+}
+.check-status-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    padding: 20px;
+    border:3px solid rgb(27, 26, 26);
+    background-color: rgb(5, 21, 63);
+
+}
+.check-status-head>h1{
+  text-align: center;
+
+
+}
+.para > a{
+    color: rgb(251, 253, 252);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.status-list {
+    gap: 10px; 
+}
+.content >h4{
+    color: rgb(2, 95, 2);
+    font-weight: 500px;
+}
+.delete{
+    color: rgb(110, 9, 2);
+    display: flex;
+    position: left;
+} 
+.job-item {
+    padding: 2px;
+    margin-bottom: 6px;
+    flex-direction: column; /* Ensures children are in a row */
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: auto;/* Adjust width according to your layout */
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgb(199, 197, 197);
+} 
+
+.explore-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(14, 13, 13);
+    padding: 10px;
+    background-color: gray;
+  }
+  .explore-head >a{
+    color: rgb(8, 8, 8);
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+
+  }
+ 

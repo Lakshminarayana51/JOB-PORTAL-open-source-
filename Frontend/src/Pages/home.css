@@ -1,0 +1,110 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height for centering */
+    background-color: #a2c4eb; /* Fallback background color */
+    background-image: url('https://img.freepik.com/premium-photo/business-man-working-laptop-with-job-search-screen_218381-8578.jpg?size=626&ext=jpg&ga=GA1.1.939195424.1728183593&semt=ais_hybrid');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: #333; /* Text color */
+    font-family: 'Arial', sans-serif;
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
+.head-container {
+    background-color: rgba(252, 249, 249, 0.9); /* White background with some transparency */
+    border-radius: 50px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+    text-align: center; /* Center text inside the card */
+    max-width: 400px; /* Maximum width of the card */
+    margin: 20px; /* Margin for spacing */
+    border: 1px solid black;
+}
+
+  
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .login-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #012344; /* Blue background */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  .jobdata-container {
+    padding: 20px;
+    
+      max-width: 1500px;
+    margin: 0px ;
+  
+    background-color: rgb(151, 151, 151);
+  }
+  
+  .search-box {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+   
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .job-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-card {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .job-card h3 {
+    margin: 0;
+  }
+  
+  .job-card p {
+    margin: 5px 0;
+  }
+  
